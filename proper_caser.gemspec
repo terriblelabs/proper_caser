@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["jeff@semanticart.com"]
   gem.description   = %q{Get educated guesses about proper capitalization of words and phrases}
   gem.summary       = %q{Leverage google search to clean up poor capitalization in dirty data}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/terriblelabs/proper_caser"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
