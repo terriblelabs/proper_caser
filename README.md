@@ -30,9 +30,9 @@ ProperCaser currently only exposes two methods:
     > ProperCaser.best_guess('IOS')
     => "iOS"
 
-`capitalization_counts` will return a hash (ordered by descending number of matches in ruby 1.9) with the match and the number of results.
+`match_counts` will return a hash (ordered by descending number of matches in ruby 1.9) with the match and the number of results.
 
-    > ProperCaser.capitalization_counts('IOS')
+    > ProperCaser.match_counts('IOS')
     => {"iOS"=>53, "Ios"=>18, "IOS"=>15, "ios"=>7}
 
 ## Contributing
